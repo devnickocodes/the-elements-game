@@ -8,3 +8,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General Styles */
+body {
+    color: #0c2644;
+    background-image: linear-gradient(90deg, #f5df99, #fccbbc);
+    font-family: 'Source Code Pro', monospace;
+}
