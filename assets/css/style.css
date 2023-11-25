@@ -145,3 +145,11 @@ h3 {
     /* display: none; */
     z-index: 10;
 }
+
+/* Modal Header */
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
