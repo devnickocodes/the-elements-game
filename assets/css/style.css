@@ -256,3 +256,22 @@ hr {
         font-size: 0.6rem;
     }
 }
+
+/* Media Query: screens (320px and up) */
+
+@media screen and (min-width: 320px) {
+
+    /* Header And How To Play Section*/
+    h1,
+    h2 {
+        margin: 1rem 4rem;
+    }
+
+    /* Score Section */
+
+    .game-score-display-div p {
+        font-size: 0.7rem;
+    }
+
+
+}
