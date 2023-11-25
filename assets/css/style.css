@@ -160,3 +160,20 @@ h3 {
     font-size: 1rem;
     font-weight: bold;
 }
+
+/* Modal Button */
+
+#close-modal-btn {
+    padding: 0.3rem 0.5rem;
+    background-color: rgba(90, 144, 206, 0.3);
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Modal Content */
+
+.modal-content {
+    font-size: 1rem;
+}
