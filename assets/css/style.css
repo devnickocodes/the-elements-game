@@ -1,7 +1,6 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -58,7 +57,6 @@ h2 {
     font-weight: bold;
 }
 
-
 #user-score-display {
     background-color: #fcf8cf;
     border-right-width: 1px;
@@ -93,3 +91,36 @@ h3 {
     font-size: 4rem;
 }
 
+/* User Choice Section  */
+
+.fa-choice-icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.choice-icons {
+    background-color: #ffffff91;
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 200ms;
+}
+
+#fire-choice {
+    color: rgb(255, 0, 0);
+}
+
+#water-choice {
+    color: rgb(5, 79, 240);
+}
+
+#air-choice {
+    color: rgb(135, 161, 207);
+}
+
+#ice-choice {
+    color: rgb(0, 204, 255);
+}
