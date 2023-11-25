@@ -307,7 +307,17 @@ hr {
         margin-top: 6rem;
     }
 
+    /* Modal Title */
 
+    .modal-title {
+        font-size: 2rem;
+    }
+
+    /* Modal Close Button */
+
+    #close-modal-btn {
+        padding: 0.5rem 0.8rem;
+    }
 
     /* Footer */
 
