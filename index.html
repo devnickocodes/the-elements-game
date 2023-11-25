@@ -17,11 +17,18 @@
     />
 
     <!-- Favicon -->
+
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Stylesheet -->
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <!-- FontAwesome Icon -->
+
     <title>The Elements Game</title>
   </head>
+
   <body>
     <!-- Header -->
 
@@ -35,117 +42,118 @@
       <!-- How to play toggle -->
 
       <h2 id="open-modal">How to play</h2>
+
+      <!-- Game Zone -->
+
+      <!-- Score Section -->
+
+      <section>
+        <div class="game-score-display-div">
+          <p id="user-score-display">
+            User's Score: <span id="user-score">0</span>
+          </p>
+          <p id="computer-score-display">
+            Computer's Score: <span id="computer-score">0</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Game Result Display Section  -->
+
+      <section>
+        <div class="choice-div">
+          <h3>
+            You chose: <span id="user-choice-span">water</span><br />Computer
+            chose: <span id="computer-choice-span">water</span> <br /><span
+              id="winner-span"
+              >who will win?</span
+            >
+          </h3>
+        </div>
+      </section>
+
+      <!-- User Choice Section -->
+
+      <section>
+        <div class="fa-choice-icon">
+          <i id="fire-choice" class="fa-solid fa-fire choice-icons"></i>
+          <i id="water-choice" class="fa-solid fa-water choice-icons"></i>
+          <i id="air-choice" class="fa-solid fa-wind choice-icons"></i>
+          <i id="ice-choice" class="fa-solid fa-icicles choice-icons"></i>
+        </div>
+      </section>
+
+      <!-- Modal Tab -->
+
+      <div id="modal">
+        <div class="modal-header">
+          <div class="modal-title">
+            <p>How to play</p>
+          </div>
+
+          <div class="close-modal-div">
+            <button id="close-modal-btn">X</button>
+          </div>
+        </div>
+        <div class="modal-content">
+          <p>
+            Welcome to The Elements Game! <br />You are given the option to
+            choose between four elements: <br /><span class="fire-span"
+              >Fire</span
+            >, <span class="water-span">Water</span>,
+            <span class="air-span">Air</span>
+            and
+            <span class="ice-span">Ice</span>. <br />The computer will randomly
+            pick one of the four elements. Depending on what you and the
+            computer have picked a winner is chosen based on the following
+            rules:
+            <br />
+          </p>
+          <hr />
+          <p>
+            If your choice and the computer's one match, it is a draw and you
+            both receive a point. <br />
+          </p>
+          <hr />
+          <p>
+            For the Wins: <br />
+            <span class="fire-span">Fire</span> wins over
+            <span class="ice-span">Ice</span>.
+            <span class="water-span">Water</span> wins over
+            <span class="fire-span">Fire</span>.
+            <span class="air-span">Air</span> wins over
+            <span class="fire-span">Fire</span>.
+            <span class="ice-span">Ice</span> wins over
+            <span class="water-span">Water</span>. <br />
+          </p>
+          <hr />
+          <p>
+            For the loses: <br />
+            <span class="fire-span">Fire</span> loses to
+            <span class="water-span">Water</span>.
+            <span class="fire-span">Fire</span> loses to
+            <span class="air-span">Air</span>.
+            <span class="water-span">Water</span> loses to
+            <span class="ice-span">Ice</span>.
+            <span class="ice-span">Ice</span> loses to
+            <span class="fire-span">Fire</span>.
+          </p>
+          <hr />
+          <p>
+            Specific draw situations: <br />
+            It is also a draw when: <br />
+            <span class="water-span">Water</span> ends up against
+            <span class="air-span">Air</span>.
+            <span class="air-span">Air</span> ends up against
+            <span class="ice-span">Ice</span>.
+            <span class="air-span">Air</span> ends up against
+            <span class="water-span">Water</span>.
+          </p>
+        </div>
+      </div>
+
+      <div id="overlay"></div>
     </main>
-
-    <!-- Game Zone -->
-
-    <!-- Score Section -->
-
-    <section>
-      <div class="game-score-display-div">
-        <p id="user-score-display">
-          User's Score: <span id="user-score">0</span>
-        </p>
-        <p id="computer-score-display">
-          Computer's Score: <span id="computer-score">0</span>
-        </p>
-      </div>
-    </section>
-
-    <!-- Game Result Display Section  -->
-
-    <section>
-      <div class="choice-div">
-        <h3>
-          You chose: <span id="user-choice-span">water</span><br />Computer
-          chose: <span id="computer-choice-span">water</span> <br /><span
-            id="winner-span"
-            >who will win?</span
-          >
-        </h3>
-      </div>
-    </section>
-
-    <!-- User Choice Section -->
-
-    <section>
-      <div class="fa-choice-icon">
-        <i id="fire-choice" class="fa-solid fa-fire choice-icons"></i>
-        <i id="water-choice" class="fa-solid fa-water choice-icons"></i>
-        <i id="air-choice" class="fa-solid fa-wind choice-icons"></i>
-        <i id="ice-choice" class="fa-solid fa-icicles choice-icons"></i>
-      </div>
-    </section>
-
-    <!-- Modal Tab -->
-
-    <div id="modal">
-      <div class="modal-header">
-        <div class="modal-title">
-          <p>How to play</p>
-        </div>
-
-        <div class="close-modal-div">
-          <button id="close-modal-btn">X</button>
-        </div>
-      </div>
-      <div class="modal-content">
-        <p>
-          Welcome to The Elements Game! <br />You are given the option to choose
-          between four elements: <br /><span class="fire-span">Fire</span>,
-          <span class="water-span">Water</span>,
-          <span class="air-span">Air</span>
-          and
-          <span class="ice-span">Ice</span>. <br />The computer will randomly
-          pick one of the four elements. Depending on what you and the computer
-          have picked a winner is chosen based on the following rules:
-          <br />
-        </p>
-        <hr />
-        <p>
-          If your choice and the computer's one match, it is a draw and you both
-          receive a point. <br />
-        </p>
-        <hr />
-        <p>
-          For the Wins: <br />
-          <span class="fire-span">Fire</span> wins over
-          <span class="ice-span">Ice</span>.
-          <span class="water-span">Water</span> wins over
-          <span class="fire-span">Fire</span>.
-          <span class="air-span">Air</span> wins over
-          <span class="fire-span">Fire</span>.
-          <span class="ice-span">Ice</span> wins over
-          <span class="water-span">Water</span>. <br />
-        </p>
-        <hr />
-        <p>
-          For the loses: <br />
-          <span class="fire-span">Fire</span> loses to
-          <span class="water-span">Water</span>.
-          <span class="fire-span">Fire</span> loses to
-          <span class="air-span">Air</span>.
-          <span class="water-span">Water</span> loses to
-          <span class="ice-span">Ice</span>.
-          <span class="ice-span">Ice</span> loses to
-          <span class="fire-span">Fire</span>.
-        </p>
-        <hr />
-        <p>
-          Specific draw situations: <br />
-          It is also a draw when: <br />
-          <span class="water-span">Water</span> ends up against
-          <span class="air-span">Air</span>.
-          <span class="air-span">Air</span> ends up against
-          <span class="ice-span">Ice</span>.
-          <span class="air-span">Air</span> ends up against
-          <span class="water-span">Water</span>.
-        </p>
-      </div>
-    </div>
-
-    <div id="overlay"></div>
-
     <!-- Footer -->
 
     <footer>
