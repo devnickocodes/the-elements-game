@@ -142,7 +142,7 @@ h3 {
     padding: 1.5rem;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
     border-radius: 1rem;
-    /* display: none; */
+    display: none;
     z-index: 10;
 }
 
@@ -242,4 +242,17 @@ hr {
     text-decoration: none;
     color: #fff;
     font-weight: 700;
+}
+
+/* Media Queries */
+
+/* Media Query: screens (290px and up) */
+
+@media screen and (min-width: 290px) {
+
+    /* Score Section */
+
+    .game-score-display-div p {
+        font-size: 0.6rem;
+    }
 }
