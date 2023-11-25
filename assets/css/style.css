@@ -142,7 +142,7 @@ h3 {
     padding: 1.5rem;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
     border-radius: 1rem;
-    /* display: none; */
+    display: none;
     z-index: 10;
 }
 
@@ -363,4 +363,28 @@ hr {
         box-shadow: 4px 4px 7px rgb(12, 39, 69);
     }
 
+}
+
+/* Media query: larger screens (1024px and up) */
+
+@media screen and (min-width: 1024px) {
+
+    /* How To Play Section */
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Game Result Display Section */
+
+    #user-choice-placeholder,
+    #computer-choice-placeholder {
+        font-size: 5rem;
+    }
+
+    /* User Choice Section */
+
+    .fa-choice-icon {
+        margin-top: 8rem;
+    }
 }
