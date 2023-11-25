@@ -272,6 +272,44 @@ hr {
     .game-score-display-div p {
         font-size: 0.7rem;
     }
+}
 
+/* Media query: tablets and larger (768px and up)*/
 
+@media screen and (min-width: 768px) {
+
+    /* Header And How To Play Section*/
+
+    h1,
+    h2 {
+        font-size: 1.5rem;
+        margin: 1rem 7rem;
+    }
+
+    /* Game Result Display Section */
+
+    h3 {
+        font-size: 1.3rem;
+        padding: 1rem 4rem;
+        border-radius: 1rem;
+        line-height: 2.5rem;
+    }
+
+    /* Score Section */
+
+    .game-score-display-div p {
+        font-size: 1rem;
+    }
+
+    /* User Choice Section */
+
+    .fa-choice-icon {
+        margin-top: 6rem;
+    }
+
+    /* Footer */
+
+    #footer {
+        padding: 0.3rem;
+    }
 }
