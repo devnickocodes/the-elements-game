@@ -181,3 +181,25 @@ h3 {
 .modal-content p {
     line-height: 1.3rem;
 }
+
+/* Color Spans Inside The Modal */
+
+.fire-span {
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+
+.water-span {
+    color: rgb(5, 79, 240);
+    font-weight: 600;
+}
+
+.air-span {
+    color: rgb(135, 161, 207);
+    font-weight: 600;
+}
+
+.ice-span {
+    color: rgb(0, 204, 255);
+    font-weight: 600;
+}
