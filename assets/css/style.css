@@ -177,3 +177,7 @@ h3 {
 .modal-content {
     font-size: 1rem;
 }
+
+.modal-content p {
+    line-height: 1.3rem;
+}
