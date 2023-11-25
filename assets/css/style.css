@@ -142,7 +142,7 @@ h3 {
     padding: 1.5rem;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
     border-radius: 1rem;
-    display: none;
+    /* display: none; */
     z-index: 10;
 }
 
@@ -307,9 +307,50 @@ hr {
         margin-top: 6rem;
     }
 
+
+
     /* Footer */
 
     #footer {
         padding: 0.3rem;
     }
+}
+
+/* Media query: laptops and larger screens (992px and up) */
+
+@media screen and (min-width: 992px) {
+
+    /* Header And How To Play Section*/
+
+    h1,
+    h2 {
+        font-size: 1.5rem;
+        margin: 2rem 9rem;
+    }
+
+    h2:hover {
+        color: #fff;
+        background-color: #0c2644;
+    }
+
+    /* Score Section */
+
+    .game-score-display-div p {
+        font-size: 1.5rem;
+    }
+
+    /* User Choice Section */
+
+    .fa-choice-icon {
+        margin-top: 4rem;
+    }
+
+    .choice-icons {
+        font-size: 2rem;
+    }
+
+    .choice-icons:hover {
+        box-shadow: 4px 4px 7px rgb(12, 39, 69);
+    }
+
 }
