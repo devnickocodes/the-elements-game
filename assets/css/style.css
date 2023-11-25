@@ -28,3 +28,15 @@ h1 {
     font-size: 1rem;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
 }
+
+/* Main Content */
+
+h2 {
+    text-align: center;
+    margin: 1rem 2rem;
+    font-size: 1rem;
+    background-color: rgba(90, 144, 206, 0.388);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 7px rgb(12, 39, 69);
+}
