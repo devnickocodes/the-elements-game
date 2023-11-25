@@ -203,3 +203,23 @@ h3 {
     color: rgb(0, 204, 255);
     font-weight: 600;
 }
+
+/* HR Tags and Overlay */
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+#overlay {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 100ms ease-in-out;
+}
