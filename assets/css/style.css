@@ -363,6 +363,12 @@ hr {
         box-shadow: 4px 4px 7px rgb(12, 39, 69);
     }
 
+    /* Footer */
+
+    #footer a:hover {
+        color: rgb(118, 19, 199);
+    }
+
 }
 
 /* Media query: larger screens (1024px and up) */
