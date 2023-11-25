@@ -126,3 +126,22 @@ h3 {
 #ice-choice {
     color: rgb(0, 204, 255);
 }
+
+/* Modal Section */
+
+#modal {
+    background-color: #fcf8cf;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    overflow-x: auto;
+    white-space: wrap;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 7px rgb(12, 39, 69);
+    border-radius: 1rem;
+    /* display: none; */
+    z-index: 10;
+}
