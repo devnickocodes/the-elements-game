@@ -31,6 +31,7 @@ h1 {
 
 /* Main Content */
 
+/* Score Display  */
 h2 {
     text-align: center;
     margin: 1rem 2rem;
@@ -39,4 +40,33 @@ h2 {
     border-radius: 0.5rem;
     cursor: pointer;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
+}
+
+.game-score-display-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-score-display-div p {
+    font-size: 0.7rem;
+    width: 50%;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid #0c2644;
+    font-weight: bold;
+}
+
+
+#user-score-display {
+    background-color: #fcf8cf;
+    border-right-width: 1px;
+    border-top-left-radius: 1rem;
+}
+
+#computer-score-display {
+    background-color: #fde1d6;
+    border-right-width: 1px;
+    border-bottom-right-radius: 1rem;
 }
