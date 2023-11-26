@@ -111,19 +111,19 @@ h3 {
     transition: 200ms;
 }
 
-#fire-choice {
+#fire {
     color: rgb(255, 0, 0);
 }
 
-#water-choice {
+#water {
     color: rgb(5, 79, 240);
 }
 
-#air-choice {
+#air {
     color: rgb(135, 161, 207);
 }
 
-#ice-choice {
+#ice {
     color: rgb(0, 204, 255);
 }
 
