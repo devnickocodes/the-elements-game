@@ -24,12 +24,11 @@ let playerChoice;
 let computerChoice = getComputerChoice();
 
 const elements = document.getElementsByClassName("choice-icons");
+
 for (let element of elements) {
     element.addEventListener("click", function () {
         playerChoice = this.getAttribute("id");
-        console.log('playerChoice = ' + playerChoice);
         checkForWinner();
-        getComputerChoice();
     });
 }
 
@@ -47,19 +46,20 @@ function getComputerChoice() {
 // Check for winner function
 
 function checkForWinner() {
-
     switch (playerChoice + computerChoice) {
         case "fireice":
         case "waterfire":
         case "airfire":
         case "icewater":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
+            computerChoice = getComputerChoice();
             break;
         case "firewater":
         case "fireair":
         case "waterice":
         case "icefire":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${computerChoice} wins!!`);
+            computerChoice = getComputerChoice();
             break;
         case "firefire":
         case "waterwater":
@@ -70,9 +70,9 @@ function checkForWinner() {
         case "airwater":
         case "waterair":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ITS a draw!!`);
+            computerChoice = getComputerChoice();
             break;
     }
-
 }
 
 
