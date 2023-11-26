@@ -32,3 +32,22 @@ function getComputerChoice() {
     const randomNum = Math.floor(Math.random() * options.length);
     return options[randomNum];
 }
+
+/**
+ * function that gets the player choice based on which fontawesome icon they have clicked
+ */
+function getPlayerChoice() {
+    const elements = document.getElementsByClassName("choice-icons");
+    for (let element of elements) {
+        element.addEventListener("click", function () {
+            const userChoice = this.getAttribute("id");
+            console.log(userChoice);
+            return getPlayerChoice;
+        });
+    }
+}
+
+
+getPlayerChoice();
+
+
