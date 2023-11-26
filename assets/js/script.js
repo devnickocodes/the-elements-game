@@ -15,3 +15,12 @@ document.getElementById("open-modal").addEventListener("click", function () {
     modalOverlay = document.getElementById("overlay");
     modalOverlay.style.opacity = 0.5;
 });
+
+// Close Modal function
+
+document.getElementById("close-modal-btn").addEventListener("click", function () {
+    modal = document.getElementById("modal");
+    modal.style.display = "none";
+    modalOverlay = document.getElementById("overlay");
+    modalOverlay.style.opacity = 0;
+});
