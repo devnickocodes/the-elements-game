@@ -1,9 +1,6 @@
+// Wait for the DOM to finish loading and generate a computer choice
 
-
-
-
-
-
+document.addEventListener("DOMContentLoaded", getComputerChoice);
 
 // Open And Close Modal Functions
 
@@ -24,3 +21,14 @@ document.getElementById("close-modal-btn").addEventListener("click", function ()
     modalOverlay = document.getElementById("overlay");
     modalOverlay.style.opacity = 0;
 });
+
+// Get Computer Choice
+
+/**
+ * The function gets the computer choice based on a random principle
+ */
+function getComputerChoice() {
+    const options = ["fire", "water", "air", "ice"];
+    const randomNum = Math.floor(Math.random() * options.length);
+    return options[randomNum];
+}
