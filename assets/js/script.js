@@ -1,7 +1,3 @@
-// Wait for the DOM to finish loading and generate a computer choice
-
-document.addEventListener("DOMContentLoaded", getComputerChoice);
-
 // Open And Close Modal Functions
 
 // Open Modal Function
@@ -22,6 +18,20 @@ document.getElementById("close-modal-btn").addEventListener("click", function ()
     modalOverlay.style.opacity = 0;
 });
 
+
+let playerChoice;
+
+let computerChoice = getComputerChoice();
+
+const elements = document.getElementsByClassName("choice-icons");
+for (let element of elements) {
+    element.addEventListener("click", function () {
+        playerChoice = this.getAttribute("id");
+        console.log('playerChoice = ' + playerChoice);
+        checkForWinner();
+    });
+}
+
 // Get Computer Choice
 
 /**
@@ -33,21 +43,5 @@ function getComputerChoice() {
     return options[randomNum];
 }
 
-/**
- * function that gets the player choice based on which fontawesome icon they have clicked
- */
-function getPlayerChoice() {
-    const elements = document.getElementsByClassName("choice-icons");
-    for (let element of elements) {
-        element.addEventListener("click", function () {
-            const userChoice = this.getAttribute("id");
-            console.log(userChoice);
-            return getPlayerChoice;
-        });
-    }
-}
-
-
-getPlayerChoice();
 
 
