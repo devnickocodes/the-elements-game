@@ -29,6 +29,7 @@ for (let element of elements) {
         playerChoice = this.getAttribute("id");
         console.log('playerChoice = ' + playerChoice);
         checkForWinner();
+        getComputerChoice();
     });
 }
 
@@ -43,5 +44,35 @@ function getComputerChoice() {
     return options[randomNum];
 }
 
+// Check for winner function
+
+function checkForWinner() {
+
+    switch (playerChoice + computerChoice) {
+        case "fireice":
+        case "waterfire":
+        case "airfire":
+        case "icewater":
+            console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
+            break;
+        case "firewater":
+        case "fireair":
+        case "waterice":
+        case "icefire":
+            console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${computerChoice} wins!!`);
+            break;
+        case "firefire":
+        case "waterwater":
+        case "airair":
+        case "iceice":
+        case "airice":
+        case "iceair":
+        case "airwater":
+        case "waterair":
+            console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ITS a draw!!`);
+            break;
+    }
+
+}
 
 
