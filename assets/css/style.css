@@ -71,6 +71,14 @@ h2 {
     border-bottom-right-radius: 1rem;
 }
 
+#user-score {
+    color: rgb(167, 0, 201);
+}
+
+#computer-score {
+    color: rgb(81, 17, 230);
+}
+
 /* Game Result Display Section  */
 
 .choice-div {

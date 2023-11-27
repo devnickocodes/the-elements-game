@@ -46,6 +46,7 @@ function getComputerChoice() {
     return options[randomNum];
 }
 
+
 // Check for winner function
 
 /**
@@ -102,6 +103,9 @@ function lose() {
     console.log("computer Wins");
 }
 
+/**
+ * Function that adds one point to both the player and the computer when it is a draw
+ */
 function draw() {
     userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
     document.getElementById("user-score").innerHTML = userScoreSpan + 1;
