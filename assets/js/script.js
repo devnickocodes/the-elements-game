@@ -131,7 +131,7 @@ function displayPlayerChoice() {
         playerChoiceSpan.style.color = "rgb(5, 79, 240)";
     } else if (playerChoice === "air") {
         playerChoiceSpan.innerHTML = "Air";
-        playerChoiceSpan.style.color = "rgb(135, 161, 207)";
+        playerChoiceSpan.style.color = "rgb(74, 106, 160)";
     } else if (playerChoice === "ice") {
         playerChoiceSpan.innerHTML = "Ice";
         playerChoiceSpan.style.color = "rgb(0, 204, 255)";
