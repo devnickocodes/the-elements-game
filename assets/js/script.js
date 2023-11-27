@@ -1,6 +1,8 @@
 // Open And Close Modal Functions
 
 // Open Modal Function
+let modal;
+let modalOverlay;
 
 document.getElementById("open-modal").addEventListener("click", function () {
     modal = document.getElementById("modal");
@@ -121,16 +123,16 @@ function draw() {
  */
 function displayPlayerChoice() {
     playerChoiceSpan = document.getElementById("user-choice-span");
-    if (playerChoice == "fire") {
+    if (playerChoice === "fire") {
         playerChoiceSpan.innerHTML = "Fire";
         playerChoiceSpan.style.color = "rgb(255, 0, 0)";
-    } else if (playerChoice == "water") {
+    } else if (playerChoice === "water") {
         playerChoiceSpan.innerHTML = "Water";
         playerChoiceSpan.style.color = "rgb(5, 79, 240)";
-    } else if (playerChoice == "air") {
+    } else if (playerChoice === "air") {
         playerChoiceSpan.innerHTML = "Air";
         playerChoiceSpan.style.color = "rgb(135, 161, 207)";
-    } else if (playerChoice == "ice") {
+    } else if (playerChoice === "ice") {
         playerChoiceSpan.innerHTML = "Ice";
         playerChoiceSpan.style.color = "rgb(0, 204, 255)";
     }
