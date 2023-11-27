@@ -18,8 +18,11 @@ document.getElementById("close-modal-btn").addEventListener("click", function ()
     modalOverlay.style.opacity = 0;
 });
 
+// Game 
 
 let playerChoice;
+let userScoreSpan;
+let computerScoreSpan;
 
 let computerChoice = getComputerChoice();
 
@@ -75,24 +78,33 @@ function checkForWinner() {
         case "airwater":
         case "waterair":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ITS a draw!!`);
+            draw();
             computerChoice = getComputerChoice();
             break;
     }
 }
 
-// Adjust The Scoreboard
+// Add points and ajust the scoreboard.
 
 /**
- * Function that adds one point to the user when they win.
+ * Function that adds one point to the user when they win and display it on the scoreboard.
  */
 function win() {
-    let userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
+    userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
     document.getElementById("user-score").innerHTML = userScoreSpan + 1;
     console.log("User Wins");
 }
 
+/**Function that adds one point to the computer when it wins and display it on the scoreboard */
 function lose() {
-    let userScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
-    document.getElementById("computer-score").innerHTML = userScoreSpan + 1;
+    computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
+    document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
     console.log("computer Wins");
+}
+
+function draw() {
+    userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
+    document.getElementById("user-score").innerHTML = userScoreSpan + 1;
+    computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
+    document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
 }
