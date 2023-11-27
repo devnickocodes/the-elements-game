@@ -62,6 +62,7 @@ function checkForWinner() {
         case "icewater":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
             displayPlayerChoice();
+            displayComputerChoice();
             win();
             computerChoice = getComputerChoice();
             break;
@@ -71,6 +72,7 @@ function checkForWinner() {
         case "icefire":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${computerChoice} wins!!`);
             displayPlayerChoice();
+            displayComputerChoice();
             lose();
             computerChoice = getComputerChoice();
             break;
@@ -84,6 +86,7 @@ function checkForWinner() {
         case "waterair":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ITS a draw!!`);
             displayPlayerChoice();
+            displayComputerChoice();
             draw();
             computerChoice = getComputerChoice();
             break;
@@ -135,6 +138,26 @@ function displayPlayerChoice() {
     } else if (playerChoice === "ice") {
         playerChoiceSpan.innerHTML = "Ice";
         playerChoiceSpan.style.color = "rgb(0, 204, 255)";
+    }
+}
+
+/**
+ * Function that adjusts the innerHTML of the span to match the computer's choice and changes the text to the appropriate color
+ */
+function displayComputerChoice() {
+    computerChoiceSpan = document.getElementById("computer-choice-span");
+    if (computerChoice === "fire") {
+        computerChoiceSpan.innerHTML = "Fire";
+        computerChoiceSpan.style.color = "rgb(255, 0, 0)";
+    } else if (computerChoice === "water") {
+        computerChoiceSpan.innerHTML = "Water";
+        computerChoiceSpan.style.color = "rgb(5, 79, 240)";
+    } else if (computerChoice === "air") {
+        computerChoiceSpan.innerHTML = "Air";
+        computerChoiceSpan.style.color = "rgb(74, 106, 160)";
+    } else if (computerChoice === "ice") {
+        computerChoiceSpan.innerHTML = "Ice";
+        computerChoiceSpan.style.color = "rgb(0, 204, 255)";
     }
 }
 
