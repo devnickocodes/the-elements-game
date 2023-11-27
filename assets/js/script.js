@@ -52,17 +52,18 @@ function checkForWinner() {
     switch (playerChoice + computerChoice) {
         case "fireice":
         case "waterfire":
-        case "airfire":
+        case "fireair":
         case "icewater":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
             win();
             computerChoice = getComputerChoice();
             break;
         case "firewater":
-        case "fireair":
+        case "airfire":
         case "waterice":
         case "icefire":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${computerChoice} wins!!`);
+            lose();
             computerChoice = getComputerChoice();
             break;
         case "firefire":
@@ -90,3 +91,8 @@ function win() {
     console.log("User Wins");
 }
 
+function lose() {
+    let userScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
+    document.getElementById("computer-score").innerHTML = userScoreSpan + 1;
+    console.log("computer Wins");
+}
