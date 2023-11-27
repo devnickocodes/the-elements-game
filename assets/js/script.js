@@ -45,6 +45,9 @@ function getComputerChoice() {
 
 // Check for winner function
 
+/**
+ * Function that uses switch statements to decide a winner based on the player and the computer choices.
+ */
 function checkForWinner() {
     switch (playerChoice + computerChoice) {
         case "fireice":
@@ -52,6 +55,7 @@ function checkForWinner() {
         case "airfire":
         case "icewater":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
+            win();
             computerChoice = getComputerChoice();
             break;
         case "firewater":
@@ -75,4 +79,14 @@ function checkForWinner() {
     }
 }
 
+// Adjust The Scoreboard
+
+/**
+ * Function that adds one point to the user when they win.
+ */
+function win() {
+    let userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
+    document.getElementById("user-score").innerHTML = userScoreSpan + 1;
+    console.log("User Wins");
+}
 
