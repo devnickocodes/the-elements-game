@@ -21,9 +21,10 @@ document.getElementById("close-modal-btn").addEventListener("click", function ()
 // Game 
 
 let playerChoice;
-let userScoreSpan;
+let playerScoreSpan;
 let computerScoreSpan;
-
+let playerChoiceSpan;
+let computerChoiceSpan;
 let computerChoice = getComputerChoice();
 
 const elements = document.getElementsByClassName("choice-icons");
@@ -46,7 +47,6 @@ function getComputerChoice() {
     return options[randomNum];
 }
 
-
 // Check for winner function
 
 /**
@@ -59,6 +59,7 @@ function checkForWinner() {
         case "fireair":
         case "icewater":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
+            displayPlayerChoice();
             win();
             computerChoice = getComputerChoice();
             break;
@@ -67,6 +68,7 @@ function checkForWinner() {
         case "waterice":
         case "icefire":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${computerChoice} wins!!`);
+            displayPlayerChoice();
             lose();
             computerChoice = getComputerChoice();
             break;
@@ -79,20 +81,21 @@ function checkForWinner() {
         case "airwater":
         case "waterair":
             console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ITS a draw!!`);
+            displayPlayerChoice();
             draw();
             computerChoice = getComputerChoice();
             break;
     }
 }
 
-// Add points and ajust the scoreboard.
+// Add points and adjust the scoreboard.
 
 /**
  * Function that adds one point to the user when they win and display it on the scoreboard.
  */
 function win() {
-    userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
-    document.getElementById("user-score").innerHTML = userScoreSpan + 1;
+    playerScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
+    document.getElementById("user-score").innerHTML = playerScoreSpan + 1;
     console.log("User Wins");
 }
 
@@ -107,8 +110,29 @@ function lose() {
  * Function that adds one point to both the player and the computer when it is a draw
  */
 function draw() {
-    userScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
-    document.getElementById("user-score").innerHTML = userScoreSpan + 1;
+    playerScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
+    document.getElementById("user-score").innerHTML = playerScoreSpan + 1;
     computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
     document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
 }
+
+/**
+ * Function that adjusts the innerHTML of the span to match the player's choice and changes the text to the appropriate color
+ */
+function displayPlayerChoice() {
+    playerChoiceSpan = document.getElementById("user-choice-span");
+    if (playerChoice == "fire") {
+        playerChoiceSpan.innerHTML = "Fire";
+        playerChoiceSpan.style.color = "rgb(255, 0, 0)";
+    } else if (playerChoice == "water") {
+        playerChoiceSpan.innerHTML = "Water";
+        playerChoiceSpan.style.color = "rgb(5, 79, 240)";
+    } else if (playerChoice == "air") {
+        playerChoiceSpan.innerHTML = "Air";
+        playerChoiceSpan.style.color = "rgb(135, 161, 207)";
+    } else if (playerChoice == "ice") {
+        playerChoiceSpan.innerHTML = "Ice";
+        playerChoiceSpan.style.color = "rgb(0, 204, 255)";
+    }
+}
+
