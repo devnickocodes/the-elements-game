@@ -27,6 +27,7 @@ let playerScoreSpan;
 let computerScoreSpan;
 let playerChoiceSpan;
 let computerChoiceSpan;
+let winnerSpan;
 let computerChoice = getComputerChoice();
 
 const elements = document.getElementsByClassName("choice-icons");
@@ -102,12 +103,16 @@ function win() {
     playerScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
     document.getElementById("user-score").innerHTML = playerScoreSpan + 1;
     console.log("User Wins");
+    winnerSpan = document.getElementById("winner-span");
+    winnerSpan.innerHTML = `${playerChoice.charAt(0).toUpperCase()}${playerChoice.slice(1)} wins over ${computerChoice.charAt(0).toUpperCase()}${computerChoice.slice(1)}!`;
 }
 
 /**Function that adds one point to the computer when it wins and display it on the scoreboard */
 function lose() {
     computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
     document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
+    winnerSpan = document.getElementById("winner-span");
+    winnerSpan.innerHTML = `${playerChoice.charAt(0).toUpperCase()}${playerChoice.slice(1)} loses to ${computerChoice.charAt(0).toUpperCase()}${computerChoice.slice(1)}!`;
     console.log("computer Wins");
 }
 
@@ -119,6 +124,8 @@ function draw() {
     document.getElementById("user-score").innerHTML = playerScoreSpan + 1;
     computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
     document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
+    winnerSpan = document.getElementById("winner-span");
+    winnerSpan.innerHTML = `It's a draw!`;
 }
 
 /**
