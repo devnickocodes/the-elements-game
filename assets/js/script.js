@@ -171,6 +171,9 @@ function displayComputerChoice() {
     }
 }
 
+/**
+ * Function that will display an announcement based on whoever first reaches 10 points
+ */
 function announceWinner() {
     playerScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
     computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
@@ -179,12 +182,27 @@ function announceWinner() {
     } else if (computerScoreSpan === 10) {
         console.log("COMPUTER: TEN");
     } else if (playerScoreSpan === 10) {
-        console.log("PLAYER: TEN");
+        announceWin();
     } else {
         console.log(playerScoreSpan + " " + computerScoreSpan);
     }
 }
 
+/**
+ * Function that displays the modal win tab and the overlay and removes the how to play h2 until the win announcement is closed
+ */
+function announceWin() {
+    let modalWin = document.getElementById("modal-win");
+    modalWin.style.display = "block";
+    document.getElementById("open-modal").style.display = "none";
+    modalOverlay = document.getElementById("overlay");
+    modalOverlay.style.opacity = 0.5;
 
-
-
+    let closeModalWinBtn = document.getElementById("close-modal-win-btn");
+    closeModalWinBtn.addEventListener("click", function () {
+        modalWin.style.display = "none";
+        modalOverlay = document.getElementById("overlay");
+        modalOverlay.style.opacity = 0;
+        document.getElementById("open-modal").style.display = "block";
+    });
+}

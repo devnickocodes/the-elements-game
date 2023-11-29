@@ -229,7 +229,7 @@ hr {
 }
 
 /* Announce Win Tab */
-.modal-win {
+#modal-win {
     background-color: #9497f0;
     position: fixed;
     top: 50%;
@@ -242,7 +242,7 @@ hr {
     padding: 1.5rem;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
     border-radius: 1rem;
-    display: block;
+    display: none;
     z-index: 11;
 }
 
