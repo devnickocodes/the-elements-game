@@ -228,7 +228,23 @@ hr {
     transition: 100ms ease-in-out;
 }
 
-
+/* Announce Win Tab */
+.modal-win {
+    background-color: #9497f0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 40%;
+    overflow-x: auto;
+    white-space: normal;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 7px rgb(12, 39, 69);
+    border-radius: 1rem;
+    display: block;
+    z-index: 11;
+}
 
 /* Footer */
 
