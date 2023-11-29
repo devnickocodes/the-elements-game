@@ -260,6 +260,21 @@ hr {
     font-weight: 600;
 }
 
+.close-modal-win-tab {
+    text-align: right;
+}
+
+#close-modal-win-btn {
+    padding: 0.3rem 0.5rem;
+    background-color: rgba(30, 110, 201, 0.863);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* Footer */
 
 #footer {
