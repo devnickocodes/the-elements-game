@@ -236,7 +236,7 @@ hr {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: rgb(230, 170, 58);
+    background-color: rgb(255, 191, 73);
     color: inherit;
 }
 
@@ -244,7 +244,7 @@ hr {
 
 #footer a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(118, 19, 199);
     font-weight: 700;
 }
 
@@ -370,7 +370,7 @@ hr {
     /* Footer */
 
     #footer a:hover {
-        color: rgb(118, 19, 199);
+        color: #fff;
     }
 
 }
