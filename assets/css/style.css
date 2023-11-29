@@ -371,6 +371,7 @@ hr {
     }
 
     /* Announce Win Tab */
+
     #modal-win {
         width: 60%;
     }
@@ -419,6 +420,16 @@ hr {
         box-shadow: 4px 4px 7px rgb(12, 39, 69);
     }
 
+    /* Announce Win Tab */
+
+    #modal-win {
+        width: 40%;
+    }
+
+    .modal-win-content p {
+        font-size: 1rem;
+    }
+
     /* Footer */
 
     #footer a:hover {
@@ -449,6 +460,7 @@ hr {
     .fa-choice-icon {
         margin-top: 8rem;
     }
+
 }
 
 /* Media query: laptops and larger screens (1440px and up) */
@@ -464,4 +476,6 @@ hr {
         margin-bottom: 1.5rem;
         line-height: 1.5rem;
     }
+
+
 }
