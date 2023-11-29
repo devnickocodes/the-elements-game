@@ -482,5 +482,14 @@ hr {
         line-height: 1.5rem;
     }
 
+    /* Announce Win Tab */
 
+    #modal-win {
+        height: 40%;
+    }
+
+    .modal-win-content p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 }
