@@ -246,6 +246,12 @@ hr {
     z-index: 11;
 }
 
+.trophy {
+    font-size: 3rem;
+    text-align: center;
+    color: #fef616;
+}
+
 /* Footer */
 
 #footer {
