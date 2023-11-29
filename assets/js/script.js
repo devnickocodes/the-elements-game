@@ -105,6 +105,7 @@ function win() {
     console.log("User Wins");
     winnerSpan = document.getElementById("winner-span");
     winnerSpan.innerHTML = `${playerChoice.charAt(0).toUpperCase()}${playerChoice.slice(1)} wins over ${computerChoice.charAt(0).toUpperCase()}${computerChoice.slice(1)}!`;
+    announceWinner();
 }
 
 /**Function that adds one point to the computer when it wins and display it on the scoreboard */
@@ -114,6 +115,7 @@ function lose() {
     winnerSpan = document.getElementById("winner-span");
     winnerSpan.innerHTML = `${playerChoice.charAt(0).toUpperCase()}${playerChoice.slice(1)} loses to ${computerChoice.charAt(0).toUpperCase()}${computerChoice.slice(1)}!`;
     console.log("computer Wins");
+    announceWinner();
 }
 
 /**
@@ -126,6 +128,7 @@ function draw() {
     document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
     winnerSpan = document.getElementById("winner-span");
     winnerSpan.innerHTML = `It's a draw!`;
+    announceWinner();
 }
 
 /**
@@ -167,4 +170,21 @@ function displayComputerChoice() {
         computerChoiceSpan.style.color = "rgb(0, 204, 255)";
     }
 }
+
+function announceWinner() {
+    playerScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
+    computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
+    if (playerScoreSpan === 10 && computerScoreSpan === 10) {
+        console.log("SAME");
+    } else if (computerScoreSpan === 10) {
+        console.log("COMPUTER: TEN");
+    } else if (playerScoreSpan === 10) {
+        console.log("PLAYER: TEN");
+    } else {
+        console.log(playerScoreSpan + " " + computerScoreSpan);
+    }
+}
+
+
+
 
