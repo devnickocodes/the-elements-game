@@ -461,6 +461,11 @@ hr {
         margin-top: 8rem;
     }
 
+    /* Announce Win Tab */
+
+    #modal-win {
+        width: 40%;
+    }
 }
 
 /* Media query: laptops and larger screens (1440px and up) */
