@@ -394,7 +394,8 @@ hr {
         width: 60%;
     }
 
-    .modal-loss-tab {
+    .modal-loss-tab,
+    .modal-draw-tab {
         width: 40%;
     }
 
