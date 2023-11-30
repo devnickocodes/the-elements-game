@@ -512,9 +512,9 @@ hr {
         height: 40%;
     }
 
-    .modal-win-content p,
-    .modal-loss-tab p,
-    .modal-draw-tab p {
+    .modal-win-content h4,
+    .modal-loss-tab h4,
+    .modal-draw-tab h4 {
         font-size: 1.5rem;
         line-height: 3rem;
     }
