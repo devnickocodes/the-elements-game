@@ -258,7 +258,8 @@ hr {
     color: rgb(179, 255, 245);
 }
 
-.modal-win-content {
+.modal-win-content,
+.modal-loss-content {
     font-size: 1.2rem;
     text-align: center;
     line-height: 2rem;
@@ -266,11 +267,13 @@ hr {
     font-weight: 600;
 }
 
-.close-modal-win-tab {
+.close-modal-win-tab,
+.close-modal-loss-tab {
     text-align: right;
 }
 
-#close-modal-win-btn {
+.close-modal-win,
+.close-modal-loss {
     padding: 0.3rem 0.5rem;
     background-color: rgba(30, 110, 201, 0.863);
     color: #fff;
