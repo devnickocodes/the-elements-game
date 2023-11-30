@@ -228,7 +228,7 @@ hr {
     transition: 100ms ease-in-out;
 }
 
-/* Announce Win Tab */
+/* Announce Win Tab and Announce Loss Tab*/
 .modal-win-tab,
 .modal-loss-tab {
     background-color: #9497f0;
@@ -247,10 +247,15 @@ hr {
     z-index: 11;
 }
 
-.trophy {
+.trophy,
+.skull {
     font-size: 3rem;
     text-align: center;
     color: #fef616;
+}
+
+.skull {
+    color: rgb(179, 255, 245);
 }
 
 .modal-win-content {
