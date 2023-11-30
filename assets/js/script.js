@@ -180,6 +180,7 @@ function announceWinner() {
     if (playerScoreSpan === 10 && computerScoreSpan === 10) {
         console.log("SAME");
     } else if (computerScoreSpan === 10) {
+        announceLoss();
         console.log("COMPUTER: TEN");
     } else if (playerScoreSpan === 10) {
         announceWin();
@@ -201,6 +202,25 @@ function announceWin() {
     let closeModalWinBtn = document.getElementById("close-modal-win-btn");
     closeModalWinBtn.addEventListener("click", function () {
         modalWin.style.display = "none";
+        modalOverlay = document.getElementById("overlay");
+        modalOverlay.style.opacity = 0;
+        document.getElementById("open-modal").style.display = "block";
+    });
+}
+
+/**
+ * Function that displays the modal loss tab and the overlay and removes the how to play h2 until the win announcement is closed
+ */
+function announceLoss() {
+    let modalLoss = document.getElementById("modal-loss");
+    modalLoss.style.display = "block";
+    document.getElementById("open-modal").style.display = "none";
+    modalOverlay = document.getElementById("overlay");
+    modalOverlay.style.opacity = 0.5;
+
+    let closeModalLossBtn = document.getElementById("close-modal-loss-btn");
+    closeModalLossBtn.addEventListener("click", function () {
+        modalLoss.style.display = "none";
         modalOverlay = document.getElementById("overlay");
         modalOverlay.style.opacity = 0;
         document.getElementById("open-modal").style.display = "block";
