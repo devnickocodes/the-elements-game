@@ -228,9 +228,10 @@ hr {
     transition: 100ms ease-in-out;
 }
 
-/* Announce Win Tab and Announce Loss Tab*/
+/* Announce Win Tab, Announce Loss Tab and Announce Draw Tab*/
 .modal-win-tab,
-.modal-loss-tab {
+.modal-loss-tab,
+.modal-draw-tab {
     background-color: #9497f0;
     position: fixed;
     top: 50%;
@@ -243,12 +244,13 @@ hr {
     padding: 1.5rem;
     box-shadow: 4px 4px 7px rgb(12, 39, 69);
     border-radius: 1rem;
-    display: none;
+    display: block;
     z-index: 11;
 }
 
 .trophy,
-.skull {
+.skull,
+.handshake {
     font-size: 3rem;
     text-align: center;
     color: #fef616;
@@ -258,8 +260,13 @@ hr {
     color: rgb(179, 255, 245);
 }
 
+.handshake {
+    color: rgb(255, 206, 229);
+}
+
 .modal-win-content,
-.modal-loss-content {
+.modal-loss-content,
+.modal-draw-content {
     font-size: 1.2rem;
     text-align: center;
     line-height: 2rem;
@@ -268,12 +275,14 @@ hr {
 }
 
 .close-modal-win-tab,
-.close-modal-loss-tab {
+.close-modal-loss-tab,
+.close-modal-draw-tab {
     text-align: right;
 }
 
 .close-modal-win,
-.close-modal-loss {
+.close-modal-loss,
+.close-modal-draw {
     padding: 0.3rem 0.5rem;
     background-color: rgba(30, 110, 201, 0.863);
     color: #fff;
