@@ -433,14 +433,16 @@ hr {
         box-shadow: 4px 4px 7px rgb(12, 39, 69);
     }
 
-    /* Announce Win Tab */
+    /* Announce Win Tab and Announce Loss Tab */
 
-    .modal-win-tab {
+    .modal-win-tab,
+    .modal-loss-tab {
         width: 40%;
     }
 
-    .modal-win-content p {
-        font-size: 1rem;
+    .modal-win-content p,
+    .modal-loss-content p {
+        font-size: 1.5rem;
     }
 
     /* Footer */
