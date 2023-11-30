@@ -446,12 +446,14 @@ hr {
     /* Announce Win Tab and Announce Loss Tab */
 
     .modal-win-tab,
-    .modal-loss-tab {
+    .modal-loss-tab,
+    .modal-draw-tab {
         width: 40%;
     }
 
     .modal-win-content p,
-    .modal-loss-content p {
+    .modal-loss-content p,
+    .modal-draw-content p {
         font-size: 1.5rem;
     }
 
