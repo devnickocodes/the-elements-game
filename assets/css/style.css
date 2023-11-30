@@ -321,7 +321,7 @@ hr {
 
     /* Score Section */
 
-    .game-score-display-div p {
+    .game-score-display-div h4 {
         font-size: 0.6rem;
     }
 }
@@ -338,7 +338,7 @@ hr {
 
     /* Score Section */
 
-    .game-score-display-div p {
+    .game-score-display-div h4 {
         font-size: 0.7rem;
     }
 }
@@ -366,7 +366,7 @@ hr {
 
     /* Score Section */
 
-    .game-score-display-div p {
+    .game-score-display-div h4 {
         font-size: 1rem;
     }
 
@@ -425,7 +425,7 @@ hr {
 
     /* Score Section */
 
-    .game-score-display-div p {
+    .game-score-display-div h4 {
         font-size: 1.5rem;
     }
 
