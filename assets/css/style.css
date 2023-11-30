@@ -494,11 +494,13 @@ hr {
 
     /* Announce Win Tab */
 
-    .modal-win-tab {
+    .modal-win-tab,
+    .modal-loss-tab {
         height: 40%;
     }
 
-    .modal-win-content p {
+    .modal-win-content p,
+    .modal-loss-tab p {
         font-size: 1.5rem;
         line-height: 3rem;
     }
