@@ -181,9 +181,18 @@ function announceWinner() {
         console.log("SAME");
     } else if (computerScoreSpan === 10) {
         announceLoss();
+        playerScoreSpan = document.getElementById("user-score");
+        computerScoreSpan = document.getElementById("computer-score");
+        playerScoreSpan.innerHTML = "0";
+        computerScoreSpan.innerHTML = "0";
         console.log("COMPUTER: TEN");
     } else if (playerScoreSpan === 10) {
         announceWin();
+        playerScoreSpan = document.getElementById("user-score");
+        computerScoreSpan = document.getElementById("computer-score");
+        playerScoreSpan.innerHTML = "0";
+        computerScoreSpan.innerHTML = "0";
+
     } else {
         console.log(playerScoreSpan + " " + computerScoreSpan);
     }
