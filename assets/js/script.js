@@ -178,6 +178,11 @@ function announceWinner() {
     playerScoreSpan = parseInt(document.getElementById("user-score").innerHTML);
     computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
     if (playerScoreSpan === 10 && computerScoreSpan === 10) {
+        announceDraw();
+        playerScoreSpan = document.getElementById("user-score");
+        computerScoreSpan = document.getElementById("computer-score");
+        playerScoreSpan.innerHTML = "0";
+        computerScoreSpan.innerHTML = "0";
         console.log("SAME");
     } else if (computerScoreSpan === 10) {
         announceLoss();
