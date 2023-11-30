@@ -235,3 +235,22 @@ function announceLoss() {
         document.getElementById("open-modal").style.display = "block";
     });
 }
+
+/**
+ * Function that displays the modal draw tab and the overlay and removes the how to play h2 until the win announcement is closed
+ */
+function announceDraw() {
+    let modalDraw = document.getElementById("modal-draw");
+    modalDraw.style.display = "block";
+    document.getElementById("open-modal").style.display = "none";
+    modalOverlay = document.getElementById("overlay");
+    modalOverlay.style.opacity = 0.5;
+
+    let closeModalDrawBtn = document.getElementById("close-modal-draw-btn");
+    closeModalDrawBtn.addEventListener("click", function () {
+        modalDraw.style.display = "none";
+        modalOverlay = document.getElementById("overlay");
+        modalOverlay.style.opacity = 0;
+        document.getElementById("open-modal").style.display = "block";
+    });
+}
