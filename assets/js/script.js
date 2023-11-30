@@ -1,6 +1,7 @@
 // Open And Close Modal Functions
 
 // Open Modal Function
+
 let modal;
 let modalOverlay;
 
@@ -104,8 +105,9 @@ function win() {
     winnerSpan.innerHTML = `${playerChoice.charAt(0).toUpperCase()}${playerChoice.slice(1)} wins over ${computerChoice.charAt(0).toUpperCase()}${computerChoice.slice(1)}!`;
     announceWinner();
 }
-
-/**Function that adds one point to the computer when it wins and display it on the scoreboard */
+/**
+ * Function that adds one point to the computer when it wins and display it on the scoreboard
+ */
 function lose() {
     computerScoreSpan = parseInt(document.getElementById("computer-score").innerHTML);
     document.getElementById("computer-score").innerHTML = computerScoreSpan + 1;
