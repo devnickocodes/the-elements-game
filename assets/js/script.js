@@ -61,7 +61,6 @@ function checkForWinner() {
         case "waterfire":
         case "fireair":
         case "icewater":
-            console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${playerChoice} wins!!`);
             displayPlayerChoice();
             displayComputerChoice();
             win();
@@ -71,7 +70,6 @@ function checkForWinner() {
         case "airfire":
         case "waterice":
         case "icefire":
-            console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ${computerChoice} wins!!`);
             displayPlayerChoice();
             displayComputerChoice();
             lose();
@@ -85,7 +83,6 @@ function checkForWinner() {
         case "iceair":
         case "airwater":
         case "waterair":
-            console.log(`Player choice is:${playerChoice}. Computer Choice is: ${computerChoice}. ITS a draw!!`);
             displayPlayerChoice();
             displayComputerChoice();
             draw();
