@@ -379,10 +379,14 @@ hr {
         padding: 0.5rem 0.8rem;
     }
 
-    /* Announce Win Tab */
+    /* Announce Win Tab and Modal Loss Tab */
 
     .modal-win-tab {
         width: 60%;
+    }
+
+    .modal-loss-tab {
+        width: 40%;
     }
 
     /* Footer */
