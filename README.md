@@ -49,3 +49,9 @@ The fundamental design for the home page, the announcements tabs as well as the 
 I chose this color scheme, because I wanted the website to be colorful and visually pleasing, keeping UI and UX in mind the whole time. I am using [Coolors.co](https://coolors.co/f5df99-fccbbc-16a7ac-9497f0-ffbf49-fde1d6-ff0000-054ff0-4a6aa0-00ccff) to display the color scheme of the website.
 
 ![Colour Scheme](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/coolors-color-scheme.png)
+
+### **Typography**
+
+I imported the fonts for the website from [Google Fonts](https://fonts.google.com/?query=Source+Code+Pro) and I used the Source Code Pro font as the main font.
+
+![Source Code Pro](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/google-fonts-source-code-pro.png)
