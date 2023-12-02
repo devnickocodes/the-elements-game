@@ -39,3 +39,7 @@ The fundamental design for the home page, the announcements tabs as well as the 
 - Announce Loss Tab
 
 ![Announce Loss Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-loss-tab-wireframe.png)
+
+- Announce Draw Tab
+
+![Announce Draw Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-draw-tab-wireframe.png)
