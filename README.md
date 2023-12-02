@@ -43,3 +43,9 @@ The fundamental design for the home page, the announcements tabs as well as the 
 - Announce Draw Tab
 
 ![Announce Draw Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-draw-tab-wireframe.png)
+
+### **Colour Scheme**
+
+I chose this color scheme, because I wanted the website to be colorful and visually pleasing, keeping UI and UX in mind the whole time. I am using [Coolors.co](https://coolors.co/f5df99-fccbbc-16a7ac-9497f0-ffbf49-fde1d6-ff0000-054ff0-4a6aa0-00ccff) to display the color scheme of the website.
+
+![Colour Scheme](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/coolors-color-scheme.png)
