@@ -27,3 +27,7 @@ The fundamental design for the home page, the announcements tabs as well as the 
 - Home Page
 
 ![Homepage wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/home-page-wireframe.png)
+
+- How To Play Tab
+
+![How To Play Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play-wireframe.png).
