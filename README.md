@@ -19,3 +19,11 @@ The objective for this project is to use HTML, CSS and JavaScript to create a fr
 - I want the user to be able to see the scoreboard and how many points they have.
 - I want the player to easily see the announcements for Win/Loss/Draw depending on whoever gets to 10 points first or in the case of a draw where both participants reached 10 points at the same time.
 - I want the player to easily find and open the instructions on how to play the game and exit the instructions without affecting the game.
+
+### **Wireframes**
+
+The fundamental design for the home page, the announcements tabs as well as the how to play tab was created using [Balsamiq](https://balsamiq.com/).
+
+- Home Page
+
+![Homepage wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/home-page-wireframe.png)
