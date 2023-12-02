@@ -7,3 +7,15 @@ The objective for this project is to use HTML, CSS and JavaScript to create a fr
 [Live link to website](https://devnickocodes.github.io/the-elements-game/)
 
 ![Website mockup](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/mock-up.png)
+
+## **UX & Design**
+
+### **Creator Stories**
+
+- I want the player to be able to easily make their choice for each one of the elements.
+- I want this website to be responsive on many devices.
+- I want this website to be very accessible.
+- I want the player to freely navigate through the website without any issues.
+- I want the user to be able to see the scoreboard and how many points they have.
+- I want the player to easily see the announcements for Win/Loss/Draw depending on whoever gets to 10 points first or in the case of a draw where both participants reached 10 points at the same time.
+- I want the player to easily find and open the instructions on how to play the game and exit the instructions without affecting the game.
