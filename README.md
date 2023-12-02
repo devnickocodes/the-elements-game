@@ -30,4 +30,8 @@ The fundamental design for the home page, the announcements tabs as well as the 
 
 - How To Play Tab
 
-![How To Play Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play-wireframe.png).
+![How To Play Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play-wireframe.png)
+
+- Announce Win Tab
+
+![Announce Win Tab wireframe](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-win-tab-wireframe.png)
