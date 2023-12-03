@@ -95,3 +95,9 @@ The following are all the feautures of the website.
   - This section showcases the icons with which the player can play the game by choosing one of them each round.
 
     ![The Available Choices For The Player](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/icons-of-elements.png)
+
+- **The Footer**
+
+  - The footer is positioned at the bottom of the website with a link to the developer's GitHub profile.
+
+    ![The Footer](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/footer.png)
