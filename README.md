@@ -96,6 +96,12 @@ The following are all the feautures of the website.
 
     ![The Available Choices For The Player](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/icons-of-elements.png)
 
+- **The Announcement Of The Win Display**
+
+  - This is the display of the win announcement that shows when the player first reaches 10 points.
+
+    ![The Announcement Of The Win Display](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-win-display.png)
+
 - **The Footer**
 
   - The footer is positioned at the bottom of the website with a link to the developer's GitHub profile.
