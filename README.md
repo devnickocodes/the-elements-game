@@ -155,7 +155,7 @@ The list bellow consists of all the technologies that were used in the making of
 - The Source Code Pro font was imported from Google Fonts.
 - [Github](https://github.com/)
 - For storage of the website's code as well as deployment, Github was used.
-  [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/)
 - Git commands were used in the IDE for version control.
 - [Balsamiq](https://balsamiq.com/)
 - The wireframe designs for the website were created with Balsamiq.
