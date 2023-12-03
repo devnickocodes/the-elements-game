@@ -138,3 +138,24 @@ The following are all the features of the website.
 
 - **Two Player Gameplay**
   - I plan on adding a two player gameplay where a player can choose to play either against the computer or against another player and each player will take turn in picking an element to play with.
+
+### **Technologies Used**
+
+The list bellow consists of all the technologies that were used in the making of this website.
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
+- The structure of the website was created with HTML5.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- The styling of the website was created with CSS3.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- The functionality of the website was added with JavaScript.
+- [Font Awesome](https://fontawesome.com/)
+- The icons of the website were imported from Font Awesome.
+- [Google Fonts](https://fonts.google.com/)
+- The Source Code Pro font was imported from Google Fonts.
+- [Github](https://github.com/)
+- For storage of the website's code as well as deployment, Github was used.
+  [Git](https://git-scm.com/)
+- Git commands were used in the IDE for version control.
+- [Balsamiq](https://balsamiq.com/)
+- The wireframe designs for the website were created with Balsamiq.
