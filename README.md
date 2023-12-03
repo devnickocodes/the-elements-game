@@ -68,6 +68,12 @@ The following are all the feautures of the website.
 
 - **How To Play Tab**
 
-  - The how to play tab is positioned right under the logo
+  - The how to play tab is positioned right under the logo.
 
     ![How To Play Tab](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play.png)
+
+- **How To Play - Instructions**
+
+  - The how to play instructions are shown once the user clicks on the How To Play Tab, with the option of closing the instructions when the top-right button is clicked.
+
+    ![How To Play - Instructions](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play-tab-opened.png)
