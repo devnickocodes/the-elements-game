@@ -77,3 +77,9 @@ The following are all the feautures of the website.
   - The how to play instructions are shown once the user clicks on the How To Play Tab, with the option of closing the instructions when the top-right button is clicked.
 
     ![How To Play - Instructions](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play-tab-opened.png)
+
+- **Scoreboard**
+
+  - The scoreboard tracks how many points both the player and the computer have.
+
+    ![Scoreboard](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/scoreboard.png)
