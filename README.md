@@ -58,7 +58,13 @@ I imported the fonts for the website from [Google Fonts](https://fonts.google.co
 
 ## **Features**
 
-The following are all the feautures of the website.
+The following are all the features of the website.
+
+- **Favicon**
+
+  - The favicon of the browser tab consists of the combination of all the elements.
+
+    ![Favicon](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/android-chrome-192x192.png)
 
 - **Logo**
 
