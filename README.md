@@ -125,3 +125,16 @@ The following are all the features of the website.
   - The footer is positioned at the bottom of the website with a link to the developer's GitHub profile.
 
     ![The Footer](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/footer.png)
+
+### **Features Left to Implement**
+
+- **Trophy Collection**
+
+  - I plan on adding trophy collection where after each win the player is able to collect the trophies.
+
+- **More Elements**
+
+  - I plan on adding more elements to the game.
+
+- **Two Player Gameplay**
+  - I plan on adding a two player gameplay where a player can choose to play either against the computer or against another player and each player will take turn in picking an element to play with.
