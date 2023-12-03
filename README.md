@@ -89,3 +89,9 @@ The following are all the feautures of the website.
   - This section displays both the player's and the computer's choices and announces the winner of the current round.
 
     ![Choice Display and Announcement](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/choice-display-and-winner-of-round-announcement.png)
+
+- **The Available Choices For The Player**
+
+  - This section showcases the icons with which the player can play the game by choosing one of them each round.
+
+    ![The Available Choices For The Player](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/icons-of-elements.png)
