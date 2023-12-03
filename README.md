@@ -102,6 +102,12 @@ The following are all the feautures of the website.
 
     ![The Announcement Of The Win Display](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-win-display.png)
 
+- **The Announcement Of The Loss Display**
+
+  - This is the display of the loss announcement that shows when the computer first reaches 10 points.
+
+    ![The Announcement Of The Loss Display](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/announce-loss-display.png)
+
 - **The Footer**
 
   - The footer is positioned at the bottom of the website with a link to the developer's GitHub profile.
