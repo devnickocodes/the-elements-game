@@ -83,3 +83,9 @@ The following are all the feautures of the website.
   - The scoreboard tracks how many points both the player and the computer have.
 
     ![Scoreboard](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/scoreboard.png)
+
+- **Choice Display and Announcement**
+
+  - This section displays both the player's and the computer's choices and announces the winner of the current round.
+
+    ![Choice Display and Announcement](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/choice-display-and-winner-of-round-announcement.png)
