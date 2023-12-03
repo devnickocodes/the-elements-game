@@ -65,3 +65,9 @@ The following are all the feautures of the website.
   - The logo appears at the very top of the page displaying the game's name.
 
     ![Logo](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/logo.png)
+
+- **How To Play Tab**
+
+  - The how to play tab is positioned right under the logo
+
+    ![How To Play Tab](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/how-to-play.png)
