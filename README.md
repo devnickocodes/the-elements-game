@@ -55,3 +55,13 @@ I chose this color scheme, because I wanted the website to be colorful and visua
 I imported the fonts for the website from [Google Fonts](https://fonts.google.com/?query=Source+Code+Pro) and I used the Source Code Pro font as the main font.
 
 ![Source Code Pro](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/google-fonts-source-code-pro.png)
+
+## **Features**
+
+The following are all the feautures of the website.
+
+- **Logo**
+
+  - The logo appears at the very top of the page displaying the game's name.
+
+    ![Logo](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/logo.png)
