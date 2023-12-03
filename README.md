@@ -159,3 +159,7 @@ The list bellow consists of all the technologies that were used in the making of
 - Git commands were used in the IDE for version control.
 - [Balsamiq](https://balsamiq.com/)
 - The wireframe designs for the website were created with Balsamiq.
+
+## **Testing**
+
+View testing [here](TESTING.md)
