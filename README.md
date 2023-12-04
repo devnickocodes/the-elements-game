@@ -163,3 +163,11 @@ The list bellow consists of all the technologies that were used in the making of
 ## **Testing**
 
 View testing [here](TESTING.md)
+
+### Local Development
+
+#### How to Fork
+
+1. Sign Up or Log In if you have an account to Github.
+2. Go to the repository for The Elements Game project - [devnickocodes/The Elements Game](https://github.com/devnickocodes/the-elements-game)
+3. Click on the Fork button that is on the right side of the repository name.
