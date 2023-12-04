@@ -189,3 +189,8 @@ You can make a local copy of The Elements Game project by writing the following 
 ### **Design**
 
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
+
+### **Content**
+
+- All the text content was created and written by me.
+- The fonts for the website were imported from [Google Fonts](https://fonts.google.com/)
