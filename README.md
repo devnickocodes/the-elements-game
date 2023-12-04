@@ -194,3 +194,8 @@ You can make a local copy of The Elements Game project by writing the following 
 
 - All the text content was created and written by me.
 - The fonts for the website were imported from [Google Fonts](https://fonts.google.com/)
+
+### **Media**
+
+- The Favicon was designed by me using [Canva.](https://www.canva.com/)
+- All the icons across the website were imported from [Font Awesome](https://fontawesome.com/)
