@@ -171,3 +171,9 @@ View testing [here](TESTING.md)
 1. Sign Up or Log In if you have an account to Github.
 2. Go to the repository for The Elements Game project - [devnickocodes/The Elements Game](https://github.com/devnickocodes/the-elements-game)
 3. Click on the Fork button that is on the right side of the repository name.
+
+#### How to Clone
+
+You can make a local copy of The Elements Game project by writing the following command in your IDE terminal.
+
+- `git clone https://github.com/devnickocodes/the-elements-game.git`
