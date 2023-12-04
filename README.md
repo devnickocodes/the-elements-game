@@ -177,3 +177,11 @@ View testing [here](TESTING.md)
 You can make a local copy of The Elements Game project by writing the following command in your IDE terminal.
 
 - `git clone https://github.com/devnickocodes/the-elements-game.git`
+
+## **Credits**
+
+### **Code**
+
+- Some of the code is inspired by [Code Institute's](https://codeinstitute.net/) Love Maths walkthrough project with some adjustments made.
+- I used [this YouTube video](https://www.youtube.com/watch?v=gLWIYk0Sd38&ab_channel=RichardCodes) to learn how to create a modal tab.
+- The idea of using switch statements was inspired by [this YouTube video](https://www.youtube.com/watch?v=Qqy8Ov3NWvQ&t=833s&ab_channel=whatsdev).
