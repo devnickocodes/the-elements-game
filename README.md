@@ -203,7 +203,7 @@ You can make a local copy of The Elements Game project by writing the following 
 
 ### **Acknowledgements**
 
-    I would like to acknowledge and thank the following people.
+- I would like to acknowledge and thank the following people.
 
 - Jubril Akolade - My Code Institute Mentor.
 - [Kieran Hillman](https://github.com/doctypeKieran) - For explaining JavaScript concepts and taking the time go over the code when I was struggling with JavaScript functions.
