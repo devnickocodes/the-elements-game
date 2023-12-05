@@ -200,3 +200,12 @@ You can make a local copy of The Elements Game project by writing the following 
 - The Favicon was designed by me using [Canva.](https://www.canva.com/)
 - All the icons across the website were imported from [Font Awesome](https://fontawesome.com/)
 - The mockup for the website on the different devices for the README file was created with [ui.dev](https://ui.dev/amiresponsive)
+
+### **Acknowledgements**
+
+    I would like to acknowledge and thank the following people.
+
+- Jubril Akolade - My Code Institute Mentor.
+- [Kieran Hillman](https://github.com/doctypeKieran) - For explaining JavaScript concepts and taking the time go over the code when I was struggling with JavaScript functions.
+- The Code Institute Tutor Support - For their awesome and quick technical help.
+- Thank you to everyone who took the time to look over the website and gave very valuable pieces of advice.
