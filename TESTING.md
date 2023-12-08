@@ -74,3 +74,24 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 
 ![Dell Laptop Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/dell-testing-draw-announcement.png)
 
+- ## **iPhone 12**
+
+- Home Page
+  
+![iPhone 12 Home Page Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/iphone12-testing-home.png)
+
+- How To Play Tab
+
+![iPhone 12 How To Play Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/iphone12-testing-how-to-play.png)
+
+- Win Announcement Tab
+
+![iPhone 12 Win Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/iphone12-testing-win-announcement.png)
+
+- Loss Announcement Tab
+
+![iPhone 12 Loss Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/iphone12-testing-loss-announcement.png)
+
+- Draw Announcement Tab
+
+![iPhone 12 Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/iphone12-testing-draw-announcement.png)
