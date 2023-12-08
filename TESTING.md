@@ -140,3 +140,25 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 
 ![Samsung Galaxy S9 Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s9-testing-draw-announcement.jpg)
 
+- ## **Samsung Galaxy S21**
+
+- Home Page
+
+![Samsung Galaxy S21 Home Page Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-home-testing.jpg)
+
+- How To Play Tab
+
+![Samsung Galaxy S21 How To Play Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-how-to-play-testing.jpg)
+
+- Win Announcement Tab
+
+![Samsung Galaxy S21 Win Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-win-announcement-testing.jpg)
+
+- Loss Announcement Tab
+
+![Samsung Galaxy S21 Loss Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-loss-announcement-testing.jpg)
+
+- Draw Announcement Tab
+
+![Samsung Galaxy S21 Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-draw-announcement-testing.jpg)
+
