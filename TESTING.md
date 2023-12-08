@@ -52,7 +52,7 @@ After the deployment of the website I tested it on the three main browsers, Chro
 
 I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 12, Apple iPad Pro 12.9-inch 4th generation, Samsung Galaxy S9 and Samsung Galaxy S21. The website loaded very smoothly and the responsiveness of the website adjusted for each screen size.
 
-- ## __Dell Vostro 3510__ 
+- ## **Dell Vostro 3510**
 
 - Home Page
   
@@ -95,3 +95,17 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 - Draw Announcement Tab
 
 ![iPhone 12 Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/iphone12-testing-draw-announcement.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
