@@ -73,3 +73,4 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 - Draw Announcement Tab
 
 ![Dell Laptop Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/dell-testing-draw-announcement.png)
+
