@@ -1,4 +1,4 @@
-### **User Testing**
+# **User Testing**
 
 After the completetion and final deployment of the website, I sent a link over to family, friends and colleagues. Some of them used the website on their phones, some on their tablets and some on their computers. Everybody was happy with how the website performed, how it was designed and its responsivenes.
 
@@ -58,7 +58,7 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
   
 ![Dell Laptop Home Page Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/google-chrome-testing.png)
 
-- How To Play Tab 
+- How To Play Tab
 
 ![Dell Laptop How To Play Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/dell-testing-how-to-play.png)
 
@@ -161,4 +161,3 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 - Draw Announcement Tab
 
 ![Samsung Galaxy S21 Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-draw-announcement-testing.jpg)
-
