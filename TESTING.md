@@ -36,3 +36,14 @@ I also used the Google Developer Tools console to work on some of the smaller se
 
 After the deployment of the website I tested it on the three main browsers, Chrome, Edge and Firefox. The website loaded and performed without a problem on every single one of the browsers.
 
+- Chrome
+
+![Chrome Browser Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/google-chrome-testing.png)
+
+- Edge
+
+![Edge Browser Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/microsoft-edge-testing.png)
+
+- Mozilla Firefox
+
+![Mozilla Firefox Browser Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/mozilla-testing.png)
