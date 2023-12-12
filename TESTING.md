@@ -169,3 +169,7 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
   - The first time I run the HTML validator it returned one warning and it was for a missing heading element in one of the sections in the html file. After speaking with my mentor he advised me to remove the section and leave just the div element. ![WC3 HTML Validator First Results](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/first%20-%20html-validator-result.png)
   
   - The second time I run the validator it returned no errors. ![WC3 HTML Validator Second Results](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/second-html-validator-result.png)
+
+- **CSS**
+  
+  - The CSS code checked out with no errors [CSS Validator](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/css-validator-results.png)
