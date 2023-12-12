@@ -172,4 +172,8 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 
 - **CSS**
   
-  - The CSS code checked out with no errors [CSS Validator](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/css-validator-results.png)
+  - The CSS code checked out with no errors ![CSS Validator](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/css-validator-results.png)
+
+- **JavaScript**
+  
+  - The JavaScript code returned only one warning for a function that is declared within a loop which references an outer scoped variable ![JSHint Validator](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/jshint-validator-result.png)
