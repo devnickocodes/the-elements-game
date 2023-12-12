@@ -193,3 +193,11 @@ The performance of the website was tested with Lighthouse, a feature that is par
 - Lighthouse Validator
 
 ![Lighthouse Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/lighthouse-testing.png)
+
+### **ADA Testing**
+
+The website was tested for ADA compliancy, which stands for the Americans with Disabilities Act for Accessible Design. The website passed the check. I used the [Accessibe Website](https://accessibe.com/) to do the testing.
+
+- Home Page ADA Testing
+
+![ADA Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/ADA-compliancy.png)
