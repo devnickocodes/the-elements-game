@@ -161,3 +161,11 @@ I tested the website on a couple of different devices: Dell Vostro 3510, iPhone 
 - Draw Announcement Tab
 
 ![Samsung Galaxy S21 Draw Announcement Tab Testing](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/samsung-galaxy-s21-draw-announcement-testing.jpg)
+
+### **Validator Testing**
+
+- **HTML**
+  
+  - The first time I run the HTML validator it returned one warning and it was for a missing heading element in one of the sections in the html file. After speaking with my mentor he advised me to remove the section and leave just the div element. ![WC3 HTML Validator First Results](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/first%20-%20html-validator-result.png)
+  
+  - The second time I run the validator it returned no errors. ![WC3 HTML Validator Second Results](https://github.com/devnickocodes/the-elements-game/blob/main/documentation/second-html-validator-result.png)
