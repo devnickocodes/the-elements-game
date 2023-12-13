@@ -159,6 +159,9 @@ The list bellow consists of all the technologies that were used in the making of
 - Git commands were used in the IDE for version control.
 - [Balsamiq](https://balsamiq.com/)
 - The wireframe designs for the website were created with Balsamiq.
+- I used the [W3C HTML Validator](https://validator.w3.org/) to validate the HTML code of the website.
+- I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS code of the website.
+- I used the [JSHint Validator](https://jshint.com/) to validate the JavaScript code of the website.
 
 ## **Testing**
 
